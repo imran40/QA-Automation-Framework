@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-picocontainer-1.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-reports-1.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/cucumber-testng-1.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/picocontainer-2.15.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber/xmlunit-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/fluent-hc-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/httpclient-cache-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/httpclient-win-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/httpmime-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/jna-4.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/httpComponents/jna-platform-4.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/json-20180813.jar"/>
+	<classpathentry kind="lib" path="lib/Velocity/velocity-engine-core-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/Velocity/velocity-engine-scripting-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/Velocity/velocity-dep-1.5-beta2.jar"/>
+	<classpathentry kind="lib" path="lib/log4j/slf4j-api-1.8.0-beta2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.8.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/client-combined-3.14.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium/okio-1.14.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

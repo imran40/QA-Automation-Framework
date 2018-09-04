@@ -1,0 +1,188 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Author Name: Imran Aslam"
+      },
+      {
+        "line": 2,
+        "value": "# Author Email: imran40@gmail.com"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Customer searches for users with username \"tom\" who have greater than 1000 repositories",
+        "description": "",
+        "id": "testing-of-the-service-responsible-for-searching-users-from-git-based-upon-repositories-count-filters.;customer-searches-for-users-with-username-\u003cuser\u003e-who-have-greater-than-\u003crepositories-count\u003e-repositories;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 742150979,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer searches for users with username \"tom\" who have \"greater\" than 1000 repositories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 43
+                },
+                {
+                  "val": "greater",
+                  "offset": 58
+                },
+                {
+                  "val": "1000",
+                  "offset": 72
+                }
+              ],
+              "location": "GitUsersWithRepositoriesStepDef.customer_searches_for_users_with_username_who_have_than_repositories(String,String,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 476248402,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Customer validates users with username \"tom\" who have \"greater\" than 1000 repositories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 40
+                },
+                {
+                  "val": "greater",
+                  "offset": 55
+                },
+                {
+                  "val": "1000",
+                  "offset": 69
+                }
+              ],
+              "location": "GitUsersWithRepositoriesStepDef.customer_validates_users_with_username_who_have_than_repositories(String,String,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@user_with_repositories_1"
+          },
+          {
+            "line": 4,
+            "name": "@user_with_repositories"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Customer searches for users with username \"tom\" who have less than 15 repositories",
+        "description": "",
+        "id": "testing-of-the-service-responsible-for-searching-users-from-git-based-upon-repositories-count-filters.;customer-searches-for-users-with-username-\u003cuser\u003e-who-have-less-than-\u003crepositories-count\u003e-repositories;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 314127598,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Customer searches for users with username \"tom\" who have \"less\" than 15 repositories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 43
+                },
+                {
+                  "val": "less",
+                  "offset": 58
+                },
+                {
+                  "val": "15",
+                  "offset": 69
+                }
+              ],
+              "location": "GitUsersWithRepositoriesStepDef.customer_searches_for_users_with_username_who_have_than_repositories(String,String,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 416018483,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Customer validates users with username \"tom\" who have \"less\" than 15 repositories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 40
+                },
+                {
+                  "val": "less",
+                  "offset": 55
+                },
+                {
+                  "val": "15",
+                  "offset": 66
+                }
+              ],
+              "location": "GitUsersWithRepositoriesStepDef.customer_validates_users_with_username_who_have_than_repositories(String,String,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@user_with_repositories_2"
+          },
+          {
+            "line": 4,
+            "name": "@user_with_repositories"
+          }
+        ]
+      }
+    ],
+    "name": "Testing of the service responsible for searching users from GIT based upon repositories count filters.",
+    "description": "",
+    "id": "testing-of-the-service-responsible-for-searching-users-from-git-based-upon-repositories-count-filters.",
+    "keyword": "Feature",
+    "uri": "Git_Users_with_Repositories.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@user_with_repositories"
+      }
+    ]
+  }
+]
