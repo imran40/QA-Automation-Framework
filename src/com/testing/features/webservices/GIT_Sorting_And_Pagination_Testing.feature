@@ -1,5 +1,5 @@
 # Author Name: Imran Aslam
-# Author Email: imran40@gmail.com
+# Author Email: imranaslam0731@gmail.com
 
 @pagination
 Feature: Testing of the filters for pagination and sorting for GIT search results.

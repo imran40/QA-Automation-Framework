@@ -1,5 +1,5 @@
 # Author Name: Imran Aslam
-# Author Email: imran40@gmail.com
+# Author Email: imranaslam0731@gmail.com
 
 @user_with_followers_repositories
 Feature: Testing of the service responsible for searching users from GIT based upon repositories and followers count filters.
